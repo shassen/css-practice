@@ -1,7 +1,7 @@
 // get clickable elements for game
 let els = document.querySelectorAll(".bounce_button");
 
-// set vars for scope
+// set vars for scope to use in funcs
 let winningEl, winningNum;
 let winCount = 0;
 
