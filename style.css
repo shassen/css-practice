@@ -16,19 +16,19 @@ body {
 
 .container-2 {
   position: sticky;
-  top: 10.3%;
+  top: 12%;
   background-color: #c97f55cb;
 }
 
 .container-3 {
   position: sticky;
-  top: 19.65%;
+  top: 23%;
   background-color: #c347e9ad;
 }
 
 .container-4 {
   position: sticky;
-  top: 29%;
+  top: 34.3%;
   background-color: #61dd91cb;
 }
 
@@ -52,10 +52,11 @@ body {
     -ms-transform: translateY(-5px);
     transform: translateY(-5px);
   } */
-  30% {
-    -webkit-transform: translateY(-5px);
-    -ms-transform: translateY(-5px);
-    transform: translateY(-5px);
+  100%,
+  5% {
+    -webkit-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    transform: translateY(-3px);
   }
 }
 .bounce_button {
@@ -64,7 +65,7 @@ body {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation-timing-function: ease-in-out;
-  /* animation-timing-function: ease-in-out; */
+  animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: 1;
   color: white;
