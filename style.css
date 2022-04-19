@@ -4,6 +4,7 @@ body {
 
 .main-container {
   background-color: #e6767669;
+  color: white;
   height: 2000px;
 }
 
@@ -15,19 +16,19 @@ body {
 
 .container-2 {
   position: sticky;
-  top: 10%;
+  top: 10.3%;
   background-color: #c97f55cb;
 }
 
 .container-3 {
   position: sticky;
-  top: 20%;
+  top: 19.65%;
   background-color: #63a4e0be;
 }
 
 .container-4 {
   position: sticky;
-  top: 30%;
+  top: 29%;
   background-color: #61dd91cb;
 }
 
@@ -37,21 +38,21 @@ body {
 }
 
 @keyframes bounce {
-  /* 0%, */
-  /* 10%, */
-  /* 20%,
-  30%, */
-  /* 15% {
+  /* 0%,
+  10%,
+  20%,
+  30%,
+  15% {
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
-  } */
-  /* 10% {
+  }
+  10% {
     -webkit-transform: translateY(-5px);
     -ms-transform: translateY(-5px);
     transform: translateY(-5px);
   } */
-  1% {
+  30% {
     -webkit-transform: translateY(-5px);
     -ms-transform: translateY(-5px);
     transform: translateY(-5px);
@@ -63,7 +64,7 @@ body {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
+  /* animation-timing-function: ease-in-out; */
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: 1;
   color: white;
