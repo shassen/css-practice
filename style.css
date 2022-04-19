@@ -1,0 +1,75 @@
+body {
+  background-color: #3a6c9bbe;
+}
+
+.main-container {
+  background-color: #e6767669;
+  height: 2000px;
+}
+
+.container-1 {
+  position: sticky;
+  top: 1%;
+  background-color: #b2b971cb;
+}
+
+.container-2 {
+  position: sticky;
+  top: 10%;
+  background-color: #c97f55cb;
+}
+
+.container-3 {
+  position: sticky;
+  top: 20%;
+  background-color: #63a4e0be;
+}
+
+.container-4 {
+  position: sticky;
+  top: 30%;
+  background-color: #61dd91cb;
+}
+
+.cont {
+  padding: 30px;
+  margin: 50px;
+}
+
+@keyframes bounce {
+  /* 0%, */
+  /* 10%, */
+  /* 20%,
+  30%, */
+  /* 15% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  } */
+  /* 10% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  } */
+  1% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+.bounce_button {
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: 1;
+  color: white;
+}
+.bounce_button:hover {
+  cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+}
